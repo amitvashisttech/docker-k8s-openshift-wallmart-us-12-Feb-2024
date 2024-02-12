@@ -26,7 +26,7 @@ sudo su -
 
 ### Step7 : Clone the git project repo 
 ```
-git clone https://github.com/amitvashisttech/docker-k8s-openshift-wallmart-india-12-Feb-2024.git
+git clone https://github.com/amitvashisttech/docker-k8s-openshift-wallmart-us-12-Feb-2024.git
 ```
 
 ## Extra Vagrant Command  :
