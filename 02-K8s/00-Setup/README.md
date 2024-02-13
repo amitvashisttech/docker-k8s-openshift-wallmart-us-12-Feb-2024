@@ -24,8 +24,8 @@ Note :
 ```
 vagrant.exe ssh master
 sudo su - 
-git clone https://github.com/amitvashisttech/docker-k8s-openshift-wallmart-india-12-Feb-2024.git
-cd docker-k8s-openshift-wallmart-india-12-Feb-2024/02-K8s/00-Setup
+git clone https://github.com/amitvashisttech/docker-k8s-openshift-wallmart-us-12-Feb-2024.git
+cd docker-k8s-openshift-wallmart-us-12-Feb-2024/02-K8s/00-Setup
 sh install-k8s-master-node.sh
 
 ---
@@ -69,8 +69,8 @@ root@master:~#
 ```
 vagrant.exe ssh woker1
 sudo su - 
-git clone https://github.com/amitvashisttech/docker-k8s-openshift-wallmart-india-12-Feb-2024.git
-cd docker-k8s-openshift-wallmart-india-12-Feb-2024/02-K8s/00-Setup
+git clone https://github.com/amitvashisttech/docker-k8s-openshift-wallmart-us-12-Feb-2024.git
+cd docker-k8s-openshift-wallmart-us-12-Feb-2024/02-K8s/00-Setup
 sh install-k8s-worker-node.sh
 ```
 
