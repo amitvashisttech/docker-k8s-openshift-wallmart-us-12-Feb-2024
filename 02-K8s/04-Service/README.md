@@ -2,9 +2,9 @@
   128  cd 06-Service/
 
   129  ls
-  130  cat helloworld.yaml 
-  131  vim helloworld.yaml 
-  132  kubectl  apply -f helloworld.yaml 
+  130  cat 01-helloworld.yaml 
+  131  vim 01-helloworld.yaml 
+  132  kubectl  apply -f 01-helloworld.yaml 
   133  kubectl  get deploy 
   134  kubectl  get svc 
   135  kubectl  delete svc helloworld-deployment
@@ -25,15 +25,15 @@
   150  kubectl  get svc 
   151  kubectl  delete svc helloworld-deployment
   152  ls
-  153  vim helloworld-svc.yaml
-  154  kubectl  apply -f helloworld-svc.yaml 
+  153  vim 02-helloworld-svc.yaml
+  154  kubectl  apply -f 02-helloworld-svc.yaml 
   155  kubectl  get svc 
   156  kubectl describe svc helloworld-service
   157  ls
-  158  cat app-svc-deployment.yaml 
-  159  kubectl  apply -f app-svc-deployment.yaml 
-  160  vim app-svc-deployment.yaml
-  161  kubectl  apply -f app-svc-deployment.yaml 
+  158  cat 03-app-svc-deployment.yaml 
+  159  kubectl  apply -f 03-app-svc-deployment.yaml 
+  160  vim 03-app-svc-deployment.yaml
+  161  kubectl  apply -f 03-app-svc-deployment.yaml 
   162  kubectl  get deploy,svc,pods 
   163  kubectl  get pods 
   164  kubectl  get deploy,svc,pods 
