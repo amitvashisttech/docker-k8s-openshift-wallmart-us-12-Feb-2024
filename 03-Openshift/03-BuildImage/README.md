@@ -18,14 +18,3 @@ Repo : <Default>
 ### 6. Select -> httpd-sample -> check for routes -> click on URL.
 
 ### 7. Select Build -> Build Config. 
-
-### Extra 
-
-```
-$ oc new-app centos/httpd-24-centos7~https://github.com/sclorg/httpd-ex
-```
-
-### You can also deploy the sample template for the application:
-```
-$ oc new-app -f https://raw.githubusercontent.com/sclorg/httpd-ex/master/openshift/templates/httpd.json 
-```
